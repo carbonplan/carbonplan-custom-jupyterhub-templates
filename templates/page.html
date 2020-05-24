@@ -1,11 +1,14 @@
 {% extends "templates/page.html" %}
 
-{% block stylesheet %}
-<link rel="stylesheet" href="{{ static_url("extra-assets/css/pangeo-style.css") }}" type="text/css"/>
-<link rel="stylesheet" href="{{ static_url("css/style.min.css") }}" type="text/css"/>
+{% block favicon %}
+<link rel="icon" href="https://carbonplan-assets.s3.amazonaws.com/images/favicon.svg" />
 {% endblock %}
 
-{# requires jupyerhub > 0.9.4 https://github.com/jupyterhub/jupyterhub/pull/2296 #}
+{% block stylesheet %}
+<link rel="stylesheet" href="{{ static_url("css/style.min.css") }}" type="text/css" />
+<link rel="stylesheet" href="{{ static_url("extra-assets/css/carbonplan-style.css") }}" type="text/css" />
+{% endblock %}
+
 {% block logo %}
 <span id="jupyterhub-logo" class="pull-left">
     <a href="{{logo_url or base_url}}"><img src="{{static_url("extra-assets/images/carbonplan_small_logo.png") }}" alt='JupyterHub' class='jpy-logo' title='Home'/></a>
