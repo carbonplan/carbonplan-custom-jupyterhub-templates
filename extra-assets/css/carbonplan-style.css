@@ -175,3 +175,8 @@ label {
 .table td {
     background-color: #1b1e23;
 }
+
+.progress-bar {
+    color: #EBEBEC;
+    background-color: #85A2F7;
+}
