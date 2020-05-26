@@ -1,182 +1,269 @@
 @font-face {
-    font-family:'relative-book-pro';
-    src:url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.eot');
-    src:url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.eot?#iefix') format('embedded-opentype'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.woff2') format('woff2'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.woff') format('woff'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
+  font-family: 'relative-book-pro';
+  src: url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.eot');
+  src: url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.woff2')
+      format('woff2'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.woff')
+      format('woff'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-book-pro.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face{
-    font-family:'relative-medium-pro';
-    src:url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.eot');
-    src:url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.eot?#iefix') format('embedded-opentype'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.woff2') format('woff2'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.woff') format('woff'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
+@font-face {
+  font-family: 'relative-medium-pro';
+  src: url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.eot');
+  src: url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.woff2')
+      format('woff2'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.woff')
+      format('woff'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-medium-pro.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face{
-    font-family:'relative-mono-11-pitch-pro';
-    src:url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.eot');
-    src:url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.eot?#iefix') format('embedded-opentype'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.woff2') format('woff2'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.woff') format('woff'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
+@font-face {
+  font-family: 'relative-mono-11-pitch-pro';
+  src: url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.eot');
+  src: url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.woff2')
+      format('woff2'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.woff')
+      format('woff'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-mono-11-pitch-pro.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face{
-    font-family:'relative-faux-book-pro';
-    src:url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.eot');
-    src:url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.eot?#iefix') format('embedded-opentype'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.woff2') format('woff2'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.woff') format('woff'), url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;
+@font-face {
+  font-family: 'relative-faux-book-pro';
+  src: url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.eot');
+  src: url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.woff2')
+      format('woff2'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.woff')
+      format('woff'),
+    url('https://carbonplan-assets.s3.amazonaws.com/fonts/relative/relative-faux-book-pro.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'relative-book-pro', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif !important;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 1.35;
+  background-color: #1b1e23 !important;
+  color: #ebebec;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'relative-book-pro', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif !important;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+a {
+  color: #85a2f7;
 }
 
 nav.navbar.navbar-default {
   background: #1b1e23;
-  font-family: "relative-medium-pro";
+  font-family: 'relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont';
   padding-top: 12px;
   padding-bottom: 16px;
   border-left-width: 0px;
   border-right-width: 0px;
   border-top-width: 0px;
   border-bottom-width: 1px;
-  border-bottom-color: #EBEBEC;
+  border-bottom-color: #808080;
 }
 
-.navbar.navbar-default .navbar-nav>li>a, .navbar.navbar-default .navbar-text {
-    font-family: "relative-medium-pro";
-    font-size: 16px;
-    color: #EBEBEC;
-    border-bottom-color: #EBEBEC;
+.navbar-toggle {
+  border-width: 0px;
+  color: #ebebec;
 }
 
-.navbar.navbar-default .navbar-nav>li>a:hover, .navbar.navbar-default .navbar-nav>li>a:focus {
-    color: #808080;
-    border-color: #808080;
-    border-bottom: 1px solid #808080;
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ebebec;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #1b1e23;
+  border-width: 1px;
+  border-color: #ebebec;
+}
+
+#login-main .form-control:focus,
+#login-main input[type='submit']:focus {
+  box-shadow: None;
+  border-color: None;
+  outline: None;
+}
+
+.navbar.navbar-default .navbar-nav > li > a,
+.navbar.navbar-default .navbar-text {
+  font-family: 'relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont';
+  font-size: 16px;
+  color: #ebebec;
+  border-bottom-color: #ebebec;
+}
+
+.navbar.navbar-default .navbar-nav > li > a:hover,
+.navbar.navbar-default .navbar-nav > li > a:focus {
+  color: #808080;
+  border-color: #808080;
+  border-bottom: 1px solid #808080;
 }
 
 #login-main .auth-form-header {
-    background: #1b1e23 !important;
-    font-size: 34px;
-}
-#login-main .auth-form-body {
-    font-family: "relative-medium-pro";
-    color: #EBEBEC;
+  background: #1b1e23 !important;
+  font-size: 34px;
 }
 
 #login-main .auth-form-body {
-    padding: 20px;
-    font-size: 18px;
-    border: None;
-    border-top: none;
-    border-radius: 0 0 3px 3px;
+  font-family: 'relative-book-pro, Roboto, system-ui, -apple-system, BlinkMacSystemFont';
+  color: #ebebec;
 }
 
-body {
-  font-family: "relative-book-pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
-  background-color: #1b1e23 !important;
-  color: #EBEBEC;
+#login-main .auth-form-body {
+  padding: 20px;
+  font-size: 18px;
+  border: None;
+}
+
+#login-main .login_error {
+  color: #f07071;
+  font-weight: 400;
+  text-align: center;
 }
 
 .panel {
-    background-color: #1b1e23;
+  background-color: #1b1e23;
 }
 
 .btn-jupyter {
-    color: #e4e4e4;
-    background-color: #1b1e23 !important;
-    border-color: #e4e4e4 !important;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 1px;
+  color: #e4e4e4;
+  background-color: #1b1e23 !important;
+  border-color: #e4e4e4 !important;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
 }
 
 .btn {
-    font-size: 16px;
+  font-size: 16px;
+  border-radius: 0px;
 }
 
 .btn-jupyter:hover {
-    color: #808080;
-    border-color: #808080 !important;
-    border-bottom: 1px solid #808080;
+  color: #808080;
+  border-color: #808080 !important;
+  border-bottom: 1px solid #808080;
 }
 
 .btn-default {
-    color: #e4e4e4;
-    background-color: #1b1e23;
-    border: None;
+  color: #e4e4e4;
+  background-color: #1b1e23;
+  border: None;
 }
 .btn-default:hover {
-    color: #808080;
-    background-color: #1b1e23;
-    border-color: #808080 !important;
-    border-bottom: 1px solid #808080;
+  color: #808080;
+  background-color: #1b1e23;
+  border-color: #808080 !important;
+  border-bottom: 1px solid #808080;
 }
 
 .btn-primary {
-    color: #e4e4e4;
-    background-color: rgba(133, 162, 247, 1.0);
-    background-color: rgba(133, 162, 247, 1.0);
+  color: #e4e4e4;
+  background-color: rgba(133, 162, 247, 1);
+  border-color: rgba(133, 162, 247, 1);
 }
 .btn-primary:hover {
-    color: #e4e4e4;
-    background-color: rgba(133, 162, 247, 0.8);
-    background-color: rgba(133, 162, 247, 0.8);
+  color: #e4e4e4;
+  background-color: rgba(133, 162, 247, 0.8);
+  background-color: rgba(133, 162, 247, 0.8);
 }
 
 .btn-danger {
-    color: #e4e4e4;
-    background-color: rgba(240, 112, 113, 1.0);
-    border-color: rgba(240, 112, 113, 1.0);
+  color: #e4e4e4;
+  background-color: rgba(240, 112, 113, 1);
+  border-color: rgba(240, 112, 113, 1);
 }
 .btn-danger:hover {
-    color: #e4e4e4;
-    background-color: rgba(240, 112, 113, 0.8);
-    border-color: rgba(240, 112, 113, 0.8); 
+  color: #e4e4e4;
+  background-color: rgba(240, 112, 113, 0.8);
+  border-color: rgba(240, 112, 113, 0.8);
 }
 
 #login-main .service-login {
-    vertical-align: top !important;
-    padding-top: 60px;
+  vertical-align: top !important;
+  padding-top: 60px;
 }
 
 #login-main #insecure-login-warning {
-    background-color: #1b1e23;
-    color: #F07071;
-    padding: 10px;
-    font-size: 14px;
+  background-color: #1b1e23;
+  color: #f07071;
+  padding: 10px;
+  font-size: 14px;
 }
 
 .form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    font-size: 16px;
-    line-height: 1.42857143;
-    color: #808080;
-    background-color: #1b1e23;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 1px;
-    border-bottom-color: #EBEBEC;
-    padding-bottom: 12px;
-    padding-top: 12px;
+  display: block;
+  width: 100%;
+  height: 34px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #808080;
+  background-color: #1b1e23;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+  border-bottom-color: #ebebec;
+  padding-bottom: 12px;
+  padding-top: 12px;
 }
 
 .form-control:focus {
-    box-shadow: None !important;
-    border-bottom-color: #EBEBEC !important;
-    outline-color: None;
+  box-shadow: None !important;
+  border-bottom-color: #ebebec !important;
+  outline-color: None;
 }
 
 label {
-    padding-top: 12px;
+  padding-top: 12px;
 }
 
 .table td {
-    background-color: #1b1e23;
+  background-color: #1b1e23;
 }
 
 .progress-bar {
-    color: #EBEBEC;
-    background-color: #85A2F7;
+  color: #ebebec;
+  border-width: 0px;
+  background-color: #7eb36a;
 }

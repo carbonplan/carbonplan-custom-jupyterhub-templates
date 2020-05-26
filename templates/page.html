@@ -1,16 +1,13 @@
-{% extends "templates/page.html" %}
-
-{% block favicon %}
+{% extends "templates/page.html" %} {% block favicon %}
 <link rel="icon" href="https://carbonplan-assets.s3.amazonaws.com/images/favicon.svg" />
-{% endblock %}
-
-{% block stylesheet %}
-<link rel="stylesheet" href="{{ static_url("css/style.min.css") }}" type="text/css" />
-<link rel="stylesheet" href="{{ static_url("extra-assets/css/carbonplan-style.css") }}" type="text/css" />
-{% endblock %}
-
-{% block logo %}
+{% endblock %} {% block stylesheet %} <link rel="stylesheet" href="{{
+static_url("css/style.min.css") }}" type="text/css" /> <link rel="stylesheet" href="{{
+static_url("extra-assets/css/carbonplan-style.css") }}" type="text/css" /> {% endblock %} {% block
+logo %}
 <span id="jupyterhub-logo" class="pull-left">
-    <a href="{{logo_url or base_url}}"><img src="{{static_url("extra-assets/images/carbonplan_small_logo.png") }}" alt='JupyterHub' class='jpy-logo' title='Home'/></a>
+  <a href="{{logo_url or base_url}}"
+    ><img src="{{static_url("extra-assets/images/carbonplan_small_logo.png") }}" alt='JupyterHub'
+    class='jpy-logo' title='Home'/></a
+  >
 </span>
 {% endblock %}
